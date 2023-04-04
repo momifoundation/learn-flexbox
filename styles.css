@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.container-first {
+    height: 40vh;
+    /* background-color: aqua; */
+    width: 30vw;
+}
+
+.container-first img {
+    height: 40vh;
+    /* width: ; */
+}
+
+.container-second {
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-second button {
+    width: 10vw;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.container-third {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 20vw;
+}
+
+.container-third img {
+    height: 20vh;
+    padding: 4px;
+}
